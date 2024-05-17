@@ -102,4 +102,4 @@ This project is licensed under the MIT License.
 - [FFmpeg](https://ffmpeg.org/) for video processing.
 - [Colorama](https://pypi.org/project/colorama/) for colored terminal output.
 - [Torch](https://pytorch.org/) for the deep learning framework.
-- [ffutils](https://github.com/slhck/ffmpeg-normalize) for FFmpeg utilities.
+- [ffutils](https://pypi.org/project/ffutils/) for FFmpeg utilities.
