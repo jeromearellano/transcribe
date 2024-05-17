@@ -33,6 +33,38 @@ See `requirements.txt` for a list of dependencies.
 
 - **CUDA Toolkit** (Optional, for users with dedicated GPUs): If you have a dedicated NVIDIA GPU and wish to enable GPU acceleration, you'll need to install the CUDA Toolkit. You can download the CUDA Toolkit from [here](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local) and follow the installation instructions provided by NVIDIA.
 
+## Setting up a Virtual Environment
+
+It's recommended to use a virtual environment to manage dependencies for this project. Follow these steps to create and activate a virtual environment:
+
+1. Install `virtualenv` if you haven't already:
+```bash
+pip install virtualenv
+```
+   
+2. Navigate to the project directory:
+```bash
+cd /path/to/transcribe
+```
+
+3. Create a virtual environment:
+```bash
+python -m virtualenv venv
+```
+
+4. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+     
+   - On macOS and Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+Once activated, you can install the project dependencies within the virtual environment without affecting your system-wide Python installation.
+
 ## Installation
 
 To install the package, clone the repository and install using `pip`:
