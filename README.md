@@ -44,7 +44,7 @@ pip install virtualenv
    
 2. Navigate to the project directory:
 ```bash
-cd /path/to/transcribe
+cd /path/to/your/directory
 ```
 
 3. Create a virtual environment:
