@@ -25,12 +25,20 @@ See `requirements.txt` for a list of dependencies.
 - `ffutils`
 - `ffmpeg`
 
+**Note:** Additionally, you'll need to install the following external dependencies:
+
+- **FFmpeg**: Download and install FFmpeg separately from [here](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z).
+
+  After downloading, extract the contents of the archive and add the FFmpeg binaries to your system PATH.
+
+- **CUDA Toolkit** (Optional, for users with dedicated GPUs): If you have a dedicated NVIDIA GPU and wish to enable GPU acceleration, you'll need to install the CUDA Toolkit. You can download the CUDA Toolkit from [here](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local) and follow the installation instructions provided by NVIDIA.
+
 ## Installation
 
 To install the package, clone the repository and install using `pip`:
 
 ```bash
-git clone https://github.com/yourusername/transcribe.git
+git clone https://github.com/jeromearellano/transcribe.git
 cd transcribe
 pip install .
 ```
