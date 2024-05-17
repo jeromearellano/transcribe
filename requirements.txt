@@ -1,0 +1,10 @@
+torch
+torch-audiomentations
+torch-pitch-shift
+torchaudio
+torchmetrics
+torchvision
+openai-whisper
+colorama
+ffutils
+ffmpeg
