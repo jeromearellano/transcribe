@@ -49,18 +49,18 @@ cd /path/to/your/directory
 
 3. Create a virtual environment:
 ```bash
-python -m virtualenv venv
+python -m venv my_env
 ```
 
 4. Activate the virtual environment:
    - On Windows:
      ```bash
-     venv\Scripts\activate
+     my_env\Scripts\activate
      ```
      
    - On macOS and Linux:
      ```bash
-     source venv/bin/activate
+     source my_env/bin/activate
      ```
 
 Once activated, you can install the project dependencies within the virtual environment without affecting your system-wide Python installation.
