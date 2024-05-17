@@ -60,14 +60,6 @@ transcribe -i /path/to/video.mp4 --model small
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## Steps to Contribute
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature-name`).
-5. Create a new Pull Request.
-
 ## License
 
 This project is licensed under the MIT License.
