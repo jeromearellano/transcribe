@@ -14,7 +14,9 @@ setup(
     include_package_data=True,
     install_requires=read_requirements(),
     dependency_links=[
-        'https://download.pytorch.org/whl/torch_stable.html'
+        'https://download.pytorch.org/whl/cu118/torch-2.3.0-cp36-cp36m-linux_x86_64.whl',
+        'https://download.pytorch.org/whl/cu118/torchvision-0.18.0-cp36-cp36m-linux_x86_64.whl',
+        'https://download.pytorch.org/whl/cu118/torchaudio-0.8.0-cp36-cp36m-linux_x86_64.whl'
     ],
     entry_points={
         'console_scripts': [
