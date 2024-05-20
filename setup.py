@@ -13,6 +13,9 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=read_requirements(),
+    dependency_links=[
+        'https://download.pytorch.org/whl/torch_stable.html'
+    ],
     entry_points={
         'console_scripts': [
             'transcribe=transcribe.transcribe:main',
