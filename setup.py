@@ -13,12 +13,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=read_requirements(),
-    dependency_links=[
-        'https://download.pytorch.org/whl/cu121/torch-2.3.0%2Bcu121-cp312-cp312-win_amd64.whl',
-        'https://download.pytorch.org/whl/cu121/torchaudio-2.3.0%2Bcu121-cp312-cp312-win_amd64.whl',
-        'https://download.pytorch.org/whl/cu121/torchvision-0.18.0%2Bcu121-cp312-cp312-win_amd64.whl',
-        'https://download.pytorch.org/whl/torchmetrics-1.0.3-py3-none-any.whl'
-    ],
     entry_points={
         'console_scripts': [
             'transcribe=transcribe.transcribe:main',
