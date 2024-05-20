@@ -72,7 +72,7 @@ To install the package, clone the repository and install using `pip`:
 ```bash
 git clone https://github.com/jeromearellano/transcribe.git
 cd transcribe
-pip install .
+pip install . --extra-index-url https://download.pytorch.org/whl/cu118
 ```
 
 ## Usage
