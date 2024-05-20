@@ -49,18 +49,18 @@ cd /path/to/your/directory
 
 3. Create a virtual environment:
 ```bash
-python -m virtualenv venv
+python -m venv my_env
 ```
 
 4. Activate the virtual environment:
    - On Windows:
      ```bash
-     venv\Scripts\activate
+     my_env\Scripts\activate
      ```
      
    - On macOS and Linux:
      ```bash
-     source venv/bin/activate
+     source my_env/bin/activate
      ```
 
 Once activated, you can install the project dependencies within the virtual environment without affecting your system-wide Python installation.
@@ -102,4 +102,4 @@ This project is licensed under the MIT License.
 - [FFmpeg](https://ffmpeg.org/) for video processing.
 - [Colorama](https://pypi.org/project/colorama/) for colored terminal output.
 - [Torch](https://pytorch.org/) for the deep learning framework.
-- [ffutils](https://github.com/slhck/ffmpeg-normalize) for FFmpeg utilities.
+- [ffutils](https://pypi.org/project/ffutils/) for FFmpeg utilities.
